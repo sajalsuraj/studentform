@@ -1,0 +1,10 @@
+body {
+    background-color: #7e7e7e;
+    background-image: url("/studentform/images/bg.jpg");
+}
+h3 {
+    text-align: center;
+}
+.well {
+    margin-top: 10%;
+}

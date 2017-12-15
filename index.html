@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta charset="utf-8">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    
+    <!-- Title -->
+    <title>Registration Form</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+                <div class="well">
+                <h3 class="col-lg-8 col-lg-offset-2">Student exam registration form</h3>
+
+                <form role="form" id="regForm" data-toggle="validator" class="shake" method="post">
+                    <div class="row">
+                        <div class="form-group col-lg-3 col-lg-offset-2">
+                            <label for="firstName" class="h4">First Name</label>
+                            <input type="text" class="form-control" id="firstName" placeholder="first name" required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="form-group col-lg-3 col-lg-offset-2">
+                            <label for="lastName" class="h4">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" placeholder="last name" required>
+                            <div class="help-block with-errors"></div>
+                        </div>     
+                        
+                        <div class="form-group col-lg-8 col-lg-offset-2">
+                            <label for="usn" class="h4">University Seat Number(USN)</label>
+                            <input type="text" class="form-control" id="usn" placeholder="enter your USN" required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        
+                        <div class="form-group col-lg-8 col-lg-offset-2">
+                            <label for="college" class="h4">College Name</label>
+                            <input type="text" class="form-control" id="college" placeholder="enter college name" required>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-lg-3 col-lg-offset-2">
+                            <label for="course" class="h4">Course</label>
+                            <select type="text" class="form-control" id="course" placeholder="select course" required>
+                                <option>B.E./B.Tech.</option>
+                                <option>M.Tech</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-lg-3 col-lg-offset-2">
+                            <label for="sem" class="h4">Semester</label>
+                            <select type="text" class="form-control" id="sem" placeholder="select semester" required>
+                                <option>I</option>
+                                <option>II</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-lg-5 col-lg-offset-2">
+                            <label for="subName" class="h4">Theory Subjects</label>
+                            <select type="text" class="form-control" id="subName" placeholder="select subject" required>
+                                <option>Computer Organisation</option>
+                                <option>Analog &amp; Digital Electronics</option>
+                                <option>Fundamentals of computation engineering</option>
+                                <option>Virtualization Foundations</option>
+                                <option>Data Structures</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+    
+                        <div class="form-group col-lg-3">
+                            <label for="subCode" class="h4">Code</label>
+                            <select type="text" class="form-control" id="subCode" placeholder="select code" required>
+                                <option>16CSE31</option>
+                                <option>16CSE32</option>
+                                <option>16CSE33</option>
+                                <option>16CSE34</option>
+                                <option>16CSE35</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+                        <div class="form-group col-lg-5 col-lg-offset-2">
+                            <label for="subName" class="h4">Lab Subjects</label>
+                            <select type="text" class="form-control" id="subName" placeholder="select subject" required>
+                                <option>Physics Lab</option>
+                                <option>Chemistry Lab</option>
+                                <option>Data Structures Lab</option>
+                                <option>Virtualization Lab</option>
+                                <option>Sci Lab</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+        
+                        <div class="form-group col-lg-3">
+                            <label for="subCode" class="h4">Code</label>
+                            <select type="text" class="form-control" id="subCode" placeholder="select code" required>
+                                <option>15PHL21</option>
+                                <option>15PHL22</option>
+                                <option>16CSL21</option>
+                                <option>16CSL22</option>
+                                <option>16CSL23</option>
+                            </select>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <div class="col-lg-4 col-lg-offset-4">
+                            <button type="submit" id="form-submit" class="btn btn-success btn-lg">Submit</button>
+                        </div>
+                    </div>
+                    <div id="msgSubmit" class="h3 text-center hidden"></div>
+                    <div class="clearfix"></div>
+                </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script  type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/validator.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+</html>
